@@ -229,7 +229,7 @@ function App() {
             <a href="${profile.linkedin}" target="_blank" rel="noreferrer" className="ghost-link">
               LinkedIn
             </a>
-            <a href="/https://github.com/mosabo5/-CV-Pharmacist/blob/main/src/cv.pdf" download className="ghost-link">
+            <a href="https://raw.githubusercontent.com/mosabo5/-CV-Pharmacist/main/src/cv.pdf" download className="ghost-link">
               Download CV
             </a>
           </div>
