@@ -156,6 +156,14 @@ const languages = [
   { name: "Arabic", level: "Native" },
 ];
 
+const publications = [
+  {
+    title: "Synergistic Antibacterial Strategies for Trans-Tympanic Drug Delivery Using Ionic Liquids",
+    authors: "Alrefaai, M. A. et al.",
+    status: "Upcoming"
+  }
+];
+
 function useCardSpotlight() {
   useEffect(() => {
     const cards = document.querySelectorAll("[data-tilt-card]");
@@ -220,6 +228,9 @@ function App() {
             <a href="mailto:${profile.email}" className="primary-link">Email Me</a>
             <a href="${profile.linkedin}" target="_blank" rel="noreferrer" className="ghost-link">
               LinkedIn
+            </a>
+            <a href="/cv.pdf" download className="ghost-link">
+              Download CV
             </a>
           </div>
 
@@ -360,6 +371,26 @@ function App() {
               </div>
               <p className="reference-note">References available upon request.</p>
             </aside>
+          </div>
+        </section>
+
+        <section className="section-grid">
+          <${SectionTitle}
+            eyebrow="Publications"
+            title="Peer-reviewed research contributions"
+            text="Research publications in pharmaceutical and drug delivery sciences."
+          />
+
+          <div className="publications-list">
+            ${publications.map(
+              (pub) => html`
+                <article className="card publication-card" data-tilt-card>
+                  <h3>${pub.title}</h3>
+                  <p className="muted">${pub.authors}</p>
+                  <span className="status-badge">${pub.status}</span>
+                </article>
+              `,
+            )}
           </div>
         </section>
       </main>

@@ -1,0 +1,20 @@
+{
+  "profile": {
+    "name": "MOSAAB AFA ALREFAAI",
+    "title": "Pharmacist",
+    "subtitle": "M.Sc in Pharmaceutical Sciences | University of Gothenburg",
+    "focus": "GMP Manufacturing, Drug Delivery Systems, Quality Assurance",
+    "location": "Sjöfrökens väg 1, 145 54, Stockholm",
+    "email": "Mosab.afa2@Gmail.com",
+    "phone": "+46724480171",
+    "linkedin": "https://www.linkedin.com/in/mosaab-afaalrefaai-a37b651b6/",
+    "summary": "Pharmacist with an MSc in Pharmaceutical Sciences from the University of Gothenburg and research experience at Harvard Medical School. Skilled in GMP manufacturing, quality assurance, drug delivery systems, and analytical techniques such as HPLC and LC-MS. Actively seeking opportunities in the pharmaceutical industry, clinical research, or medical affairs."
+  },
+  "publications": [
+    {
+      "authors": "Alrefaai, M. A. et al.",
+      "title": "Synergistic Antibacterial Strategies for Trans-Tympanic Drug Delivery Using Ionic Liquids.",
+      "status": "upcoming"
+    }
+  ]
+}
